@@ -1,0 +1,194 @@
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 16px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  background-color: #949393;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+  min-width: 160px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.material-symbols-outlined {
+  background-color: transparent;
+  border: none;
+  color: darkslategrey;
+  font-variation-settings: "FILL" 1, "wght" 200, "GRAD" 0, "opsz" 24;
+  padding: 0;
+  position: relative;
+}
+
+/* Change color of icons links on hover */
+.material-symbols-outlined:hover {
+  color: black;
+}
+
+.btn {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  justify-content: center;
+}
+
+.flex-nav {
+  align-items: center;
+  align-self: flex-start;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 200%;
+  justify-content: space-between;
+  margin: 0;
+  position: sticky;
+  top: 0;
+  vertical-align: middle;
+  z-index: 1;
+}
+
+.flex-nav > flex-item {
+  align-items: center;
+  display: inline-flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.category-container {
+  align-items: center;
+  background-color: rgb(227, 231, 231);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+  vertical-align: middle;
+  z-index: 0;
+}
+
+.category-card {
+  border-radius: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1em;
+  text-align: center;
+}
+.category-card:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.category-card img {
+  height: 50px;
+  margin: auto;
+  width: 50px;
+}
+
+.btn-category {
+  text-decoration: none;
+}
+
+.items-container {
+  align-items: center;
+  background-color: rgb(246, 245, 245);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 0;
+  padding-top: 20px;
+  padding-right: 2%;
+  padding-bottom: 20px;
+  padding-right: 2%;
+  position: relative;
+  vertical-align: middle;
+}
+
+.item-card {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 16em;
+  padding: 1em;
+  width: 12em;
+}
+
+.item-card:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.item-card img {
+  height: 11em;
+  margin: auto;
+  width: 100%;
+}
+
+.item-body-coupon {
+  align-items: center;
+  display: inline-flex;
+  font-size: 12px;
+  gap: 50px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.item-body-desc {
+  display: inline-flex;
+  flex-direction: row;
+  font-size: 7px;
+  gap: 20px;
+}
+
+.btn-item {
+  text-decoration: none;
+}
+
+.item-body-price {
+  align-items: center;
+  display: inline-flex;
+  gap: 20px;
+  flex-direction: row;
+  font-size: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.item-body-price > button {
+  font-size: 10px;
+}
